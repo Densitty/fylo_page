@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #edeced;
+}
+
+body {
+	background-color: #070d22;
+
+	color: #edeced;
+}
+
+#nav-links-cont {
+	margin: 70px auto 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 100px
+}
+
+#nav-links-cont .logo {}
+
+#links ul {
+	display: flex;
+}
+
+
+#links li {
+	font-size: 1.4em;
+	list-style: none;
+}
+
+#links li a {
+	display: inline-block;
+	padding: 0 60px;
+	font-size: 1.2em
+}
+
+#links li a:hover {
+	color: rgba(42, 219, 205, 0.63);
+	background: #162a2c;
+}
+
+#content {
+	background-image: url(images/bg-curvy-desktop.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+#body-cont {
+	background-image: url(images/illustration-intro.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80vh;
+}
+
+#content-text {
+	margin: 0px auto;
+	width: 80%
+}
+
+#content-text h2 {
+	font-size: 3em;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+#content-text p {
+	font-size: 2em;
+
+	margin: 0px auto;
+	text-align: center
+}
+
+.one {
+	text-align: left;
+	width: 80%
+}
+
+.two {
+	width: 70%;
+}
+
+#content-text a {
+	font-size: 30px;
+	border-radius: 75px;
+	background: #3cabce;
+	padding: 30px 40px;
+	width: 30%;
+	color: #f5eef5;
+	display: block;
+	margin: 80px auto 0;
+	text-align: center
+}
+
+#content-text a:hover {
+	cursor: pointer;
+}
